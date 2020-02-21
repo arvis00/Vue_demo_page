@@ -1,0 +1,46 @@
+Vue-Router {
+    routes,
+    router-view,
+    router-link,
+    children,
+    meta
+}
+
+Vuex {
+    mapActions
+    mapGetters
+}
+
+Vue {
+    props,
+    v-model,
+    slot,
+    v-if/v-else,
+    @click,
+    methods,
+    components
+}
+
+Structure {
+    components: {
+        app-nav,
+        app-header,
+        app-footer,
+        whitebox,
+        card,
+        app-input,
+        app-textarea
+    },
+    layout: {
+        app-header,
+        whitebox: {
+            router-view
+        }
+        app-footer
+    },
+    routes: {
+        home,
+        about,
+        contacts
+    }
+}
