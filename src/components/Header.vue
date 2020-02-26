@@ -36,5 +36,4 @@ export default {
   margin-top: 22px;
   color: #fff;
 }
-
 </style>

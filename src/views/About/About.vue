@@ -43,22 +43,18 @@ export default {
 .aboutMeLinks {
   font-size: 16px;
   margin-right: 32px;
-  /* margin-top: 33px;
-  margin-bottom: 33px; */
   color: #000;
 
   &.router-link-exact-active {
     color: #3252e5;
-
   }
 }
 .aboutBtnContainer {
   margin: 33px 0 33px;
 }
-.detailsContainer{
+.detailsContainer {
   height: 250px;
   background-color: #eeeff3;
-
 }
 .details {
   font-size: 18px;

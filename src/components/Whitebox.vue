@@ -1,7 +1,7 @@
 <template>
   <div class="whiteBox">
     <div class="whiteBoxContainer">
-    <slot />
+      <slot />
     </div>
   </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <button @click='onClick'>
-      {{buttonName}}
+    <button @click="onClick">
+      {{ buttonName }}
     </button>
   </div>
 </template>
@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style scoped>
-button{
+button {
   height: 45px;
   width: 170px;
   background-color: #3252e5;

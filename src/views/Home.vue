@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="whiteBoxHeader">{{$route.meta.title }}</p>
+    <p class="whiteBoxHeader">{{ $route.meta.title }}</p>
 
     <div class="cardContainer">
       <Card>
@@ -17,8 +17,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
-// import Whitebox from '@/components/Whitebox.vue'
 import Card from '@/components/Card'
 
 export default {

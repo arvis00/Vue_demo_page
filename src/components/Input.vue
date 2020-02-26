@@ -1,7 +1,13 @@
 <template>
   <div>
-    <label :for="labelName">{{labelName}}</label>
-    <input :value="value" :id="labelName" type="text" required @input="$emit('input', $event.target.value)">
+    <label :for="labelName">{{ labelName }}</label>
+    <input
+      :value="value"
+      :id="labelName"
+      type="text"
+      required
+      @input="$emit('input', $event.target.value)"
+    />
   </div>
 </template>
 
@@ -11,12 +17,11 @@ export default {
     value: String,
     labelName: String
   }
-
 }
 </script>
 
 <style scoped>
-input{
+input {
   width: 296px;
   height: 48px;
   margin-top: 11px;
@@ -28,8 +33,9 @@ input:focus {
   outline-width: 0px;
 }
 
-input, label {
-    display:block;
-    font-size: 14px;
+input,
+label {
+  display: block;
+  font-size: 14px;
 }
 </style>

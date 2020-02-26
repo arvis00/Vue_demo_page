@@ -18,13 +18,11 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
 <style>
-ol{
+ol {
   padding-left: 19px;
   margin: 0;
 }

@@ -1,7 +1,12 @@
 <template>
   <div>
     <label :for="labelName">{{ labelName }}</label>
-    <textarea :value="value" :id="labelName" type="text" @input="$emit('input', $event.target.value)"></textarea>
+    <textarea
+      :value="value"
+      :id="labelName"
+      type="text"
+      @input="$emit('input', $event.target.value)"
+    ></textarea>
   </div>
 </template>
 

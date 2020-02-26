@@ -5,16 +5,14 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
 <style>
-.footer{
+.footer {
   font-size: 12px;
   padding-bottom: 35px;
-    padding-top: 65px;
-        text-align: center;
+  padding-top: 65px;
+  text-align: center;
 }
 </style>

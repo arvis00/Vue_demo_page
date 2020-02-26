@@ -3,12 +3,10 @@
     <AppHeader />
     <div class="mainContainer">
       <Whitebox>
-    <router-view />
+        <router-view />
       </Whitebox>
-
     </div>
     <AppFooter />
-
   </div>
 </template>
 
@@ -28,15 +26,12 @@ export default {
 </script>
 
 <style>
-
 body {
   margin: 0;
-  font-family: 'Open sans';
+  font-family: "Open sans";
 }
 
 #app {
-  /* height: 1164px; */
-  /* padding-bottom: 100px; */
   background-color: #eeeff3;
 }
 
@@ -49,5 +44,4 @@ p {
   justify-content: center;
   height: 600px;
 }
-
 </style>
