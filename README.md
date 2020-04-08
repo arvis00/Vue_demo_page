@@ -1,6 +1,6 @@
 # portfolio
 
-Simple Vue demo page using components, Routes.
+Simple Vue demo page using components, Routes, Vuex.
 
 ## Project setup
 ```
