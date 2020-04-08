@@ -1,5 +1,7 @@
 # portfolio
 
+Simple Vue demo page using components, Routes.
+
 ## Project setup
 ```
 yarn install
