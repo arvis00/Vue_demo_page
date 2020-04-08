@@ -1,5 +1,12 @@
 # portfolio
 
+
+To run the app:
+
+- download repo
+- yarn install
+- yarn serve
+
 Simple Vue demo page using components, Router, Vuex.
 
 ## Project setup
